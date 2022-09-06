@@ -39,3 +39,24 @@ function removeUrlAnchor(url){
   return url.replace(/#.+/gi, '')
 }
 ````
+
+
+## Work experience:
+As part of the last completed course JS/Front-end developer Stage #0 completed projects such as:
+1. [Travel](https://rolling-scopes-school.github.io/karimch21-JSFEPRESCHOOL2022Q2/travel/index.html).  Where predominantly HTML, CSS and responsive layout for mobile devices
+2. [Momentum](https://rolling-scopes-school.github.io/karimch21-JSFEPRESCHOOL2022Q2/stage1-tasks-momentum/). Where prevails JS, but also made layout and adaptive for mobile devices.
+3. [Eldritch-Horror](https://rolling-scopes-school.github.io/karimch21-JSFEPRESCHOOL2022Q2/eldritch-codejam/index.html). Small board game helper app. Implemented deck mixing algorithm.
+
+## Education and courses:
+
+* **Kazan National Research Technical University A.N. Tupolev-KAI**
+    * Institute of Radio Electronics, Photonics and Digital Technologies
+* **HTML Academy**
+* **JS/FE Pre-school 2022Q2**
+* **Markup developer from 0 to 1**
+* **JavaScript/Front-end 2022Q3 - _In process_**
+
+## Languages
+
+* Russian - native speaker.
+* English - A2
