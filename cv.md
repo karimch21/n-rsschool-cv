@@ -1,6 +1,5 @@
 
 # Makhmutov Karim
-___
 
 ## My Contact Info:
 
