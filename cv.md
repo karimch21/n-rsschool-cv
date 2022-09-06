@@ -19,3 +19,23 @@ I am 23 years old, I graduated from a higher educational institution KNITU-KAI w
     * Responsible
     * Easily trained
     * I easily get in touch with people
+
+## Skills:
+
+* HTML
+* CSS (SASS/SCSS, BEM)
+* JavaScript 
+* Git/GitHub
+* Photoshop, Figma
+
+
+## Code examples
+
+_Task:_
+Complete the function/method so that it returns the url with anything after the anchor (#) removed.
+
+````
+function removeUrlAnchor(url){
+  return url.replace(/#.+/gi, '')
+}
+````
