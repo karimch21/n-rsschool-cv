@@ -33,3 +33,8 @@ button {
     background-color: transparent;
     cursor: pointer;
 }
+
+.educaiton__list svg {
+    width: 20px;
+    height: 20px;
+}
