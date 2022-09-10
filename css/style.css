@@ -14,10 +14,6 @@ body {
     overflow-x: hidden;
     position: relative;
     font-size: 21px;
-    background-image: url(../img/bg-main.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -58,6 +54,7 @@ button {
     display: flex;
     flex-direction: column;
     height: 100%;
+    scroll-behavior: smooth;
 }
 
 img {
@@ -67,10 +64,21 @@ img {
 h2.title {
     margin-bottom: 20px;
     font-size: 28px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+h2.title--select {
+    background-color: rgba(0, 0, 0, 0.055);
 }
 
 .content {
     flex: 1 0 auto;
+    background-image: url(../img/bg-main.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    scroll-behavior: smooth;
 }
 
 .container {
