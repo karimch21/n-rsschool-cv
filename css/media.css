@@ -1,0 +1,125 @@
+@media (max-width: 800px) {
+    .burger {
+        display: flex;
+    }
+    .menu {
+        padding: 20px;
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.904);
+        left: -100%;
+        top: 0;
+        z-index: 1000;
+        border-radius: 10px;
+    }
+    .menu .menu__list {
+        display: block;
+        overflow-y: auto;
+    }
+    .menu--active {
+        left: 0;
+    }
+    .menu__item {
+        text-align: center;
+    }
+    .menu__item a {
+        display: inline-block;
+        padding: 0 20px;
+    }
+    .menu__item+.menu__item {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    .summary p {
+        line-height: 21px;
+    }
+    .promo {
+        padding-bottom: 40px;
+        margin-bottom: 40px;
+    }
+    .promo__content {
+        margin-left: 60px;
+    }
+    .code span {
+        padding-left: 7px;
+    }
+    body {
+        font-size: 18px;
+    }
+    .educaiton__list ul {
+        margin-top: 5px;
+    }
+    .education__faculty {
+        margin-left: 10px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 660px) {
+    .contacts {
+        width: 100%;
+    }
+    .contacts__item {
+        width: 100%;
+    }
+    .summary {
+        width: 100%;
+    }
+    .promo__title {
+        font-size: 32px;
+        margin-bottom: 7px;
+    }
+    .promo__text {
+        font-size: 21px;
+    }
+    .deoration-element {
+        margin-bottom: 7px;
+    }
+    .promo__content {
+        max-width: 290px;
+        margin-left: 26px;
+    }
+    .contacts__item svg {
+        margin-right: 4px;
+    }
+}
+
+@media (max-width: 530px) {
+    .cotnent__box {
+        flex-direction: column;
+    }
+    .block-wh {
+        width: 100%;
+    }
+    h2.title {
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 500px) {
+    .promo__img {
+        margin-bottom: 10px;
+    }
+    .promo__box {
+        flex-wrap: wrap;
+    }
+    .promo__content {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    code {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 400px) {
+    .header {
+        margin-bottom: 30px;
+    }
+    .menu__item+.menu__item {
+        margin-top: 4px;
+    }
+    .menu__item a {
+        font-size: 18px;
+    }
+}
